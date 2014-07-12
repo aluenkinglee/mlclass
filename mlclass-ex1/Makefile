@@ -34,11 +34,11 @@ computeCost: computeCost.cpp
 	$(CXX) $(CXXFLAGS) -c $< $(LIB_FLAGS)
 gradientDescent: gradientDescent.cpp
 	$(CXX) $(CXXFLAGS) -c $< $(LIB_FLAGS)
-featureNormalize:featureNormalize.cpp
+featureNormalize: featureNormalize.cpp
 	$(CXX) $(CXXFLAGS) -c $< $(LIB_FLAGS)
 normalEqn: normalEqn.cpp
 	$(CXX) $(CXXFLAGS) -c $< $(LIB_FLAGS)
-gradientDescentMulti:gradientDescentMulti.cpp
+gradientDescentMulti: gradientDescentMulti.cpp
 	$(CXX) $(CXXFLAGS) -c $< $(LIB_FLAGS)
 ex1: ex1.cpp computeCost.o gradientDescent.o
 	$(CXX) $(CXXFLAGS) -c $< $(LIB_FLAGS)

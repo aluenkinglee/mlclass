@@ -26,8 +26,6 @@ int main()
     data.load("lrdata2.txt",arma_ascii);
     cout<< "lrdata2 size:"<< data.size()<<endl;
     cout << data(2,2)<<endl;
-    cout << data.n_rows<<endl;
-    cout << data.n_cols<<endl;
     //data.load("data1.txt",arma_ascii);
     //cout << "read data from octave file:\n" <<data<<endl;
     //data.load("data2.txt",arma_ascii);
